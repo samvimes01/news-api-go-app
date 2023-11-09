@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>News App Demo</title>
-  <link rel="stylesheet" href="/assets/style.css">
+  <base href="/">
+  <link href="/assets/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -17,7 +18,7 @@
         <input autofocus class="search-input" value="{{ .Query }}" placeholder="Enter a news topic" type="search" name="q"
           maxlength="500" />
       </form>
-      <a href="https://github.com/freshman-tech/news" class="button github-button">View on GitHub</a>
+      <a href="https://github.com/samvimes01/news-api-go-app" class="button github-button">View on GitHub</a>
     </header>
     <section class="container">
       <div class="result-count">

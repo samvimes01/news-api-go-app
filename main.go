@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/freshman-tech/news-demo-starter-files/news"
 	"github.com/joho/godotenv"
+	"github.com/samvimes01/news-api-go-app/news"
 )
 
 var tpl = template.Must(template.ParseFiles("index.html"))

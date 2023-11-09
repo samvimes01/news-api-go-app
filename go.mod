@@ -1,4 +1,4 @@
-module github.com/freshman-tech/news-demo-starter-files
+module github.com/samvimes01/news-api-go-app
 
 go 1.21
 
